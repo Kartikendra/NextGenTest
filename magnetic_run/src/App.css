@@ -1,0 +1,10 @@
+:root {
+  --nav-color: #675d50;
+  --nav-text: #fff;
+  --primary-color: #f4cc89;
+  --secondary-color: #abc4aa;
+  --hover-color: #a9907e;
+}
+body {
+  background-color: var(--primary-color);
+}
