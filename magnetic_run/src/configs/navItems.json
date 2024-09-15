@@ -1,0 +1,28 @@
+{
+    "navItems":[
+        {
+            "label":"label1",
+             "value":"value1"
+        },
+        {
+            "label":"label2",
+             "value":"value2"
+        },
+        {
+            "label":"label3",
+             "value":"value3"
+        },
+        {
+            "label":"label4",
+             "value":"value4"
+        },
+        {
+            "label":"label5",
+             "value":"value5"
+        },
+        {
+            "label":"label6",
+             "value":"value6"
+        }
+    ]
+}
