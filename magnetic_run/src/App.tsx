@@ -1,8 +1,32 @@
-import Button from "./components/Button"
 
-const App = () => {
+import './App.css'
+import { Navbar } from './components/navbar/navbar'
+
+import NavItems from './configs/navItems.json'
+function App() {
+
   return (
-    <Button className="pr-4 pl-4 p-3 bg-gray-200 rounded " label="signIn" disabled={false}/>
+  <>
+  <div className='mainbody'>
+    <div className='navbar'>
+      {
+        NavItems.navItems.map((item)=>{
+          return(<div>
+              {item.label}
+          </div>
+        
+          )
+        })
+      }
+
+    </div>
+    <div className='content'>
+         <div className='maps'></div>
+         <div className='searchbar'></div>
+    </div>
+
+  </div>
+  </>
   )
 }
 
