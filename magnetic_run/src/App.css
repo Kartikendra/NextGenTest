@@ -5,6 +5,43 @@
   --secondary-color: #abc4aa;
   --hover-color: #a9907e;
 }
-body {
-  background-color: var(--primary-color);
+
+.mainbody{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+.mainbody div{
+  
+  margin: 10px;
+  font-size: 30px;
+
+}
+.navbar{
+  display: flex;
+  flex-direction: column;
+  background-color: #b42f2f;
+  width: 25%;
+}
+
+.navbar div{
+  border: 1px solid black;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-items: flex-start;
+
+
+  width: 75%;
+}
+.content div{
+  background-color: #b42f2f;
+}
+.maps{
+  height: 85%;
+}
+.searchbar{
+  height: 15%;
 }
