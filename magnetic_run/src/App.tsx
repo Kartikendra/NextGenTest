@@ -1,14 +1,8 @@
+import Button from "./components/Button"
 
-import './App.css'
-import { Navbar } from './components/navbar/navbar'
-
-
-function App() {
-
+const App = () => {
   return (
-  <>
-<Navbar/>
-  </>
+    <Button className="pr-4 pl-4 p-3 bg-gray-200 rounded " label="signIn" disabled={false}/>
   )
 }
 
